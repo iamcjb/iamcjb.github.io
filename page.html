@@ -16,8 +16,7 @@
             var min = today.getMinutes();
             var s = today.getSeconds();
             var milli = today.getMilliseconds();
-            //ps:用于解决宽度显示问题
-            //pps:不知为何，字符串拼接有问题，我不得不用这种神经病一样的方案来控制宽度= =||
+
             if (milli >= 100) {
                 milli = (milli - (milli % 10)) / 10;
             }
@@ -176,7 +175,7 @@
         #BGI {
             width: 1080px;
             height: 2340px;
-            background-image: url(BGI_TigerDAHE.jpg);
+            background-image: url(BUI_SHIT.jpg);
             position: absolute;
             left: 0px;
             top: 0px;
@@ -239,7 +238,7 @@
 
 <body onLoad="getDate();getTime()">
     <div id="BGI">
-        <image src="https://github.com/iamcjb/iamcjb.github.io/blob/main/BGI_TigerDAHE.jpg">
+        <image src="https://github.com/iamcjb/iamcjb.github.io/blob/main/BUI_SHIT.jpg">
         <div id="display">
             <p id="DateAndTime"></p>
             <div id="info1">
